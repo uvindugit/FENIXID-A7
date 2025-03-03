@@ -1,128 +1,77 @@
+# <p align="center"><img src="https://bit.ly/41GgF1u" width="1080px"></p>
 
-# FENIXID A7 WhatsApp Bot
+<h1 align="center">
+  <a href="#">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=FF0000&center=true&vCenter=true&random=false&width=500&lines=Fenix+ID+A7+-+Ultimate+Bot" alt="Fenix ID A7 - Ultimate Bot">
+  </a>
+</h1>
+# Fenix ID Bot
 
-FENIXID A7 is a powerful WhatsApp bot designed to provide advanced features for managing contacts, automating responses, and integrating with Google Contacts. It is built using Node.js and the Baileys library for WhatsApp Web API.
+Welcome to the Fenix ID Bot GitHub page! Below are the buttons for easy access to the bot's official channels:
+
+### Join the Channels:
+
+- **[YouTube Channel](https://youtube.com/@fenix_id?si=J9Bnmfpeo3jkmlze)**  
+  [![YouTube Channel](https://img.shields.io/badge/YouTube-Fenix_ID-FF0000?style=for-the-badge&logo=youtube)](https://youtube.com/@fenix_id?si=J9Bnmfpeo3jkmlze)
+
+- **[Telegram Channel](https://t.me/fenix_tools)**  
+  [![Telegram Channel](https://img.shields.io/badge/Telegram-Fenix_Tools-0088CC?style=for-the-badge&logo=telegram)](https://t.me/fenix_tools)
+
+- **[WhatsApp Channel](https://whatsapp.com/channel/0029Vatd8yBHFxOye7J3DG0E)**  
+  [![WhatsApp Channel](https://img.shields.io/badge/WhatsApp-Fenix_ID-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vatd8yBHFxOye7J3DG0E)
+
+
+<p align="center">
+  <b>🚀 The Most Advanced WhatsApp Automation Bot</b><br>
+  <b>🔥 VIP Features | Auto Reactions | Smart AI | Secure Authentication</b>
+</p>
 
 ---
 
-## Features
+## 🚀 **Deployment Methods**
 
-- **Save Contacts to Google Contacts**: Automatically save new WhatsApp contacts to your Google Contacts.
-- **Welcome Messages**: Send personalized welcome messages to new users.
-- **Owner-Only Commands**: Restrict sensitive commands like `authgoogle`, `verifycode`, `updatec`, and `deletetoken` to the bot owner.
-- **Google Integration**: Authenticate with Google APIs to manage contacts seamlessly.
-- **Customizable**: Easily customize the bot's behavior and responses.
+### **1️⃣ Termux (Pairing Code)**
+```
+$pkg update && pkg upgrade -y && pkg install git nodejs -y && git clone https://github.com/Fenixid-server/Pairingcode.git && cd Pairingcode && npm install && node index.js
+```
 
----
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Fenixid-server&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Fenixid-server&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
+</div>
 
-## Bot Commands
-
-| Command       | Description                                                                 |
-|---------------|-----------------------------------------------------------------------------|
-| `!menu`       | Displays the bot's menu with available commands.                            |
-| `!authgoogle` | Initiates Google authentication and saves the owner's number to Google Contacts. |
-| `!verifycode` | Verifies the Google authentication code and saves tokens.                   |
-| `!updatec`    | Updates Google API credentials using a JSON code.                          |
-| `!deletetoken`| Deletes saved Google tokens and credentials (owner-only).                  |
-
----
-
-## Deployment
-
-You can deploy this bot to Heroku with just one click:
+**🚀 Deploy to Heroku**
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Fenixid-server/FENIXID-A7)
 
-### Manual Deployment
-
-If you prefer to deploy manually, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Fenixid-server/FENIXID-A7.git
-   cd FENIXID-A7
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Set Up Environment Variables**:
-   Create a `.env` file in the root directory and add the following variables:
-   ```env
-   OWNER_NUMBER=your_owner_number
-   FENIX_NAME=your_bot_name
-   BOT_EMAIL=your_bot_email
-   BOT_NAME=your_bot_name
-   BOT_LOCATION=your_bot_location
-   BOT_AGE=your_bot_age
-   FENIX_ABOUT_TYPE=your_bot_business_type
-   ```
-
-4. **Run the Bot**:
-   ```bash
-   npm start
-   ```
-
 ---
 
-## Configuration
+## **✨ Features**
 
-### Environment Variables
+✅ **VIP-Style Automation**<br>
+🤖 **Auto Reactions & Status Interactions**<br>
+📞 **Auto-Save Contacts & Google Sync**<br>
+🔥 **Advanced Number Sensor & Blacklist**<br>
+🛡 **Google Authentication with MongoDB**<br>
+🎭 **Custom Animations & Premium UI**
 
-| Variable           | Description                                                                 |
-|--------------------|-----------------------------------------------------------------------------|
-| `OWNER_NUMBER`     | The owner's WhatsApp number (with country code, e.g., `94773010580`).       |
-| `FENIX_NAME`       | The name of your bot.                                                       |
-| `BOT_EMAIL`        | The email associated with your bot.                                         |
-| `BOT_NAME`         | The name of your bot.                                                       |
-| `BOT_LOCATION`     | The location of your bot.                                                   |
-| `BOT_AGE`          | The age of your bot.                                                        |
-| `FENIX_ABOUT_TYPE` | The type of business or purpose of your bot.                                |
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="JavaScript" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="TypeScript" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="React" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="HTML5" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="CSS3" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="Python" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="C#" />
+</div>
 
----
+###
 
-## Contributing
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif" alt="Cool GIF" />
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes.
-4. Push your branch and open a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Support
-
-For support or questions, please open an issue on the [GitHub repository](https://github.com/Fenixid-server/FENIXID-A7/issues).
-
-```
-
-### Key Sections
-1. **Bot Details**: A brief description of the bot and its purpose.
-2. **Features**: A list of the bot's key features.
-3. **Bot Commands**: A table of available commands and their descriptions.
-4. **Deployment**: Instructions for deploying the bot to Heroku (with a deploy button) and manual deployment steps.
-5. **Configuration**: A table of environment variables required for the bot.
-6. **Contributing**: Guidelines for contributing to the project.
-7. **License**: Information about the project's license.
-8. **Support**: Instructions for getting support or reporting issues.
-
-### Heroku Deploy Button
-The Heroku deploy button is added using the following Markdown syntax:
-```markdown
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Fenixid-server/FENIXID-A7)
-```
-
-This button allows users to deploy the bot to Heroku with a single click.
-
-### Final Notes
-- Replace placeholders like `your_owner_number`, `your_bot_name`, etc., with actual values or instructions for users to fill them in.
