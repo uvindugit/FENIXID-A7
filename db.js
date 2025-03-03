@@ -1,8 +1,8 @@
 const { MongoClient } = require('mongodb');
 
 // MongoDB URI and database name
-const uri = 'mongodb+srv://701:701@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // replace with your MongoDB URI
-const dbName = '701'; // replace with your database name
+const uri = 'mongodb+srv://Bye:okbye2@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // replace with your MongoDB URI
+const dbName = 'Bye'; // replace with your database name
 
 // MongoDB client instance
 let db;
