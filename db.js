@@ -1,8 +1,8 @@
 const { MongoClient } = require('mongodb');
 
 // MongoDB URI and database name
-const uri = 'mongodb+srv://Bye:okbye2@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // replace with your MongoDB URI
-const dbName = 'Bye'; // replace with your database name
+const uri = 'mongodb+srv://FENIXIDPUBLICURL:FENIXIDPUBLICURL@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // replace with your MongoDB URI
+const dbName = 'FENIXIDPUBLICURL'; // replace with your database name
 
 // MongoDB client instance
 let db;
@@ -22,12 +22,12 @@ async function connectToDB() {
   }
 }
 
-// Get the contacts collection
+// password 
 function getContactsCollection() {
   if (!db) {
     throw new Error('Database not connected');
   }
-  return db.collection('con5tacts3');
+  return db.collection('123yourpassword'); //enter here any passkey
 }
 
 // Get the authentication collection
