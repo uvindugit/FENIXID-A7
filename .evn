@@ -1,0 +1,60 @@
+# General Bot Settings
+AUTO_LIKE_STATUS=true
+DOWNLOAD_MEDIA_STATUS=false
+SENSOR_NUMBER=true
+SEND_WELCOME_MESSAGE=true
+
+# Blacklist and Whitelist (comma-separated numbers)
+BLACK_LIST=
+WHITE_LIST=
+
+# Bot Details
+FENIX_ABOUT_TYPE=Programming
+OWNER_NUMBER=94773010580
+USER_TIMEZONE=Asia/Colombo
+FENIX_NAME=Unknown Friend
+
+# Welcome Messages
+FENIX_WEL_1=Your Number Has Been Auto Saved🫠
+FENIX_WEL_2=Save And Alert Me If Save 🌹
+FENIX_WEL_3=Save and Alert me✅
+
+# Status Auto-Detect Messages
+AUTO_DETECT_1=heyyy 😸
+AUTO_DETECT_2=ඔයගෙ නම්බරෙ ගත්තෙ ස්ටෙටස් එකකින් 🫠
+
+# Bot Profile Details
+BOT_NAME=FENX ID OWNER
+BOT_AGE=26
+BOT_LOCATION=SRILANKA
+BOT_EMAIL=privateloginemails@gmail.com
+
+# Relax Wishes
+RELAX_WISHES=Take a deep breath... 🌿
+
+# Send Translations (comma-separated phrases)
+SEND_TRANSLATIONS=send,envoyer,enviar,invia,senden,ส่ง,gửi,отправить,إرسال,发送,wysłać,Sent,Send,one,danna,ewnna,ewpm,ewn,එවන්න,ඔනෙ,ඔන,දාන්න,දම්,එවපං,දහම්,එවපන්,දපන්,දාපන්,දාපම්,ඔනා,ඔනේ,එවහන්,One,දෙන්නකො,ewan,dapanko,dapan
+
+# Emojis (comma-separated)
+EMOJIS=🌼,😂,🔥,🤍,🥰,😎,🪻,🎉,👑,🛒,🚀,💎,🌟,🧘‍♀️,🌈
+
+# MongoDB Connection
+MONGO_URL=mongodb+srv://username:password@cluster0.mongodb.net/dbname?retryWrites=true&w=majority
+DB_NAME=your_database_name
+
+# Gmail Credentials for Nodemailer
+GMAIL_USER=privateloginemails@gmail.com
+GMAIL_PASS=ztwt gfzy qsma xbgn
+
+# Google OAuth Credentials
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+GOOGLE_REDIRECT_URI=your_google_redirect_uri
+
+# WhatsApp API Settings (if applicable)
+WHATSAPP_API_KEY=your_whatsapp_api_key
+WHATSAPP_API_SECRET=your_whatsapp_api_secret
+
+# Other Settings
+LOG_LEVEL=info
+DEBUG_MODE=false
