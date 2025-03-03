@@ -30,9 +30,11 @@ Welcome to the Fenix ID Bot GitHub page! Below are the buttons for easy access t
 
 ## 🚀 **Deployment Methods**
 
-### **1️⃣ Termux (Pairing Code)**
+### **1️⃣ Termux (Pairing Code✅)**
+
+
 ```
-$pkg update && pkg upgrade -y && pkg install git nodejs -y && git clone https://github.com/Fenixid-server/Pairingcode.git && cd Pairingcode && npm install && node index.js
+pkg update && pkg upgrade -y && pkg install git nodejs -y && git clone https://github.com/Fenixid-server/Pairingcode.git && cd Pairingcode && npm install && node index.js
 ```
 
 <div align="center">
