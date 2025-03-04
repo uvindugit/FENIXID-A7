@@ -30,6 +30,9 @@ Welcome to the Fenix ID Bot GitHub page! Below are the buttons for easy access t
 
 ## 🚀 **Deployment Methods**
 
+[![PairCode Scan✅](https://img.shields.io/badge/Scan%20PairCode-%230A66C2?style=for-the-badge&logo=whatsapp&logoColor=white)](https://pairz-9ec360ae8410.herokuapp.com/pairing)
+
+
 ### **1️⃣ Termux (Pairing Code✅)**
 
 
