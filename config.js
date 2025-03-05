@@ -17,13 +17,13 @@
     fenixwel2: 'Save And Alert Me If Save 🌹',
     fenixwel3: 'Save and Alert me✅',
     //status motion puah    
-    autodetect1: 'heyyy 😸',
+    autodetect1: 'heyyy 😸🩵',
     autodetect2: 'ඔයගෙ නම්බරෙ ගත්තෙ ස්ටෙටස් එකකින් 🫠',
-    privateautodetect1: 'heyyy 😸',
+    privateautodetect1: 'heyyy 😸🫠',
     privateautodetect2: 'ඔයගෙ නම්බරෙ ගත්තෙ කෙනෙක් ශෙයා කරනකොට 😫',
 
     botDetails: {
-        botName: 'FENX ID OWNER',
+        botName: 'FENIX ID OWNER',
         botAge: '26',
         botLocation: 'SRILANKA',
         botEmail: 'privateloginemails@gmail.com',
