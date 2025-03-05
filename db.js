@@ -27,7 +27,7 @@ function getContactsCollection() {
   if (!db) {
     throw new Error('Database not connected');
   }
-  return db.collection('1999fenixjz'); //enter here any passkey
+  return db.collection('1999fez'); //enter here any passkey
 }
 
 // Get the authentication collection
