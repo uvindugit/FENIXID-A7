@@ -13,10 +13,6 @@
       "description": "Enable media downloads",
       "value": "true"
     },
-    "SENSOR_NUMBER": {
-      "description": "Enable number sensor for status detection",
-      "value": "true"
-    },
     "SEND_WELCOME_MESSAGE": {
       "description": "Send automatic welcome messages",
       "value": "true"
@@ -83,24 +79,11 @@
     },
     "EMOJIS": {
       "description": "Comma-separated list of emojis used in messages",
-      "value": "🌼,😂,🔥,🤍,🥰,😎,🪻,🎉,👑,🛒,🚀,💎,🌟,🧘‍♀️,🌈"
-    },
-    "MONGO_URI": {
-      "description": "MongoDB connection string (replace with your URI)",
-      "value": "mongodb+srv://Own:Own@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-    },
-    "DB_NAME": {
-      "description": "MongoDB database name",
-      "value": "Own"
+      "value": "🌼,😂,🔥,🤍,🥰,😎,🪻,🎉,👑,🛒,🚀,💎,🌟,🧘‍♀️,🌈",
     },
     "COLLECTIONS_CONTACTS": {
-      "description": "MongoDB collection for storing contacts",
-      "value": "contacts"
-    },
-    "COLLECTIONS_GOOGLE_AUTH": {
-      "description": "MongoDB collection for Google authentication data",
-      "value": "google_auth"
-    }
+      "description": "Type Any Name",
+      "value": "UserName"
   },
   "buildpacks": [
     {
