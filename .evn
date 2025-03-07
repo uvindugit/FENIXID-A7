@@ -39,7 +39,7 @@ MONGO_URI=mongodb+srv://Own:Own@cluster0.aahbv.mongodb.net/?retryWrites=true&w=m
 DB_NAME=Own
 
 # Collections
-COLLECTION_CONTACTS=contacts
+COLLECTION_CONTACTS=anypswd
 COLLECTION_GOOGLE_AUTH=google_auth
 
 # Send Translations (comma-separated phrases)
