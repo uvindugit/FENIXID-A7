@@ -1,90 +1,10 @@
 {
-  "name": "Fenix WhatsApp Bot",
-  "description": "A WhatsApp bot built with Node.js and Baileys library.",
-  "repository": "https://github.com/Fenixid-server/FENIXID-A7?tab=readme-ov-file", // Replace with your GitHub repo URL
-  "logo": "https://i.ibb.co/0V26BH0F/2205.jpg", // Replace with your bot's logo URL
-  "keywords": ["whatsapp", "bot", "nodejs", "baileys"],
+  "name": "DemonSlayer WhatsApp Bot",
+  "description": "A WhatsApp bot with VIP features.",
+  "repository": "https://github.com/Fenixid-server/FENIX-A7",
+  "logo": "https://bit.ly/4kfeKbA",
+  "keywords": ["whatsapp", "bot", "automation", "vip"],
   "env": {
-    "AUTO_LIKE_STATUS": {
-      "description": "Enable or disable auto-liking of status updates.",
-      "value": "true"
-    },
-    "DOWNLOAD_MEDIA_STATUS": {
-      "description": "Enable or disable downloading media from status updates.",
-      "value": "false"
-    },
-    "SENSOR_NUMBER": {
-      "description": "Mask phone numbers in logs for privacy.",
-      "value": "true"
-    },
-    "SEND_WELCOME_MESSAGE": {
-      "description": "Enable or disable sending welcome messages to new users.",
-      "value": "true"
-    },
-    "FENIX_ABOUT_TYPE": {
-      "description": "Describe the bot's purpose.",
-      "value": "Programming"
-    },
-    "OWNER_NUMBER": {
-      "description": "The owner's WhatsApp number (used for restricted commands).",
-      "value": "94773010580"
-    },
-    "USER_TIMEZONE": {
-      "description": "The timezone for the bot.",
-      "value": "Asia/Colombo"
-    },
-    "FENIX_NAME": {
-      "description": "Default name for users without a pushname.",
-      "value": "Unknown Friend"
-    },
-    "FENIX_WEL_1": {
-      "description": "Welcome message 1.",
-      "value": "Your Number Has Been Auto Saved🫠"
-    },
-    "FENIX_WEL_2": {
-      "description": "Welcome message 2.",
-      "value": "Save And Alert Me If Save 🌹"
-    },
-    "FENIX_WEL_3": {
-      "description": "Welcome message 3.",
-      "value": "Save and Alert me✅"
-    },
-    "AUTO_DETECT_1": {
-      "description": "Status auto-detect message 1.",
-      "value": "heyyy 😸"
-    },
-    "AUTO_DETECT_2": {
-      "description": "Status auto-detect message 2.",
-      "value": "ඔයගෙ නම්බරෙ ගත්තෙ ස්ටෙටස් එකකින් 🫠"
-    },
-    "PRIVATE_AUTO_DETECT_1": {
-      "description": "Private status auto-detect message 1.",
-      "value": "heyyy 😸"
-    },
-    "PRIVATE_AUTO_DETECT_2": {
-      "description": "Private status auto-detect message 2.",
-      "value": "ඔයගෙ නම්බරෙ ගත්තෙ කෙනෙක් ශෙයා කරනකොට 😫"
-    },
-    "BOT_NAME": {
-      "description": "Bot name.",
-      "value": "FENX ID OWNER"
-    },
-    "BOT_AGE": {
-      "description": "Bot age.",
-      "value": "26"
-    },
-    "BOT_LOCATION": {
-      "description": "Bot location.",
-      "value": "SRILANKA"
-    },
-    "BOT_EMAIL": {
-      "description": "Bot email.",
-      "value": "privateloginemails@gmail.com"
-    },
-    "RELAX_WISHES": {
-      "description": "Relaxing message sent to users.",
-      "value": "Take a deep breath... 🌿"
-    },
     "MONGO_URI": {
       "description": "MongoDB connection string.",
       "value": "mongodb+srv://Own:Own@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
@@ -101,12 +21,84 @@
       "description": "MongoDB collection for Google auth.",
       "value": "google_auth"
     },
+    "AUTO_LIKE_STATUS": {
+      "description": "Enable auto-like for status",
+      "value": "true"
+    },
+    "DOWNLOAD_MEDIA_STATUS": {
+      "description": "Enable download media",
+      "value": "true"
+    },
+    "SENSOR_NUMBER": {
+      "description": "Enable sensor number",
+      "value": "true"
+    },
+    "SEND_WELCOME_MESSAGE": {
+      "description": "Send welcome messages",
+      "value": "true"
+    },
+    "FENIX_ABOUT_TYPE": {
+      "description": "Set about type",
+      "value": "Programming"
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner's phone number",
+      "value": "94773010580"
+    },
+    "USER_TIMEZONE": {
+      "description": "User timezone",
+      "value": "Asia/Colombo"
+    },
+    "FENIX_NAME": {
+      "description": "Name of the unknown save number ",
+      "value": "Unknown Friend"
+    },
+    "FENIX_WEL_1": {
+      "description": "contact push message 1",
+      "value": "Your Number Has Been Auto Saved🫠"
+    },
+    "FENIX_WEL_2": {
+      "description": "contact push message 2",
+      "value": "Save And Alert Me If Save 🌹"
+    },
+    "FENIX_WEL_3": {
+      "description": "contact push message 3",
+      "value": "Save and Alert me✅"
+    },
+    "AUTO_DETECT_1": {
+      "description": "Status motion push message 1",
+      "value": "heyyy 😸"
+    },
+    "AUTO_DETECT_2": {
+      "description": "Status motion push message 2",
+      "value": "ඔයගෙ නම්බරෙ ගත්තෙ ස්ටෙටස් එකකින් 🫠"
+    },
+    "BOT_NAME": {
+      "description": "Name of the bot",
+      "value": "FENX ID OWNER"
+    },
+    "BOT_AGE": {
+      "description": "Age of the bot",
+      "value": "26"
+    },
+    "BOT_LOCATION": {
+      "description": "Location of the bot",
+      "value": "SRILANKA"
+    },
+    "BOT_EMAIL": {
+      "description": "Email associated with the bot",
+      "value": "privateloginemails@gmail.com"
+    },
+    "RELAX_WISHES": {
+      "description": "Relaxation message",
+      "value": "Take a deep breath... 🌿"
+    },
     "SEND_TRANSLATIONS": {
-      "description": "Phrases that trigger the bot to send a message (comma-separated).",
+      "description": "Comma-separated list of translations for sending messages",
       "value": "send,envoyer,enviar,invia,senden,ส่ง,gửi,отправить,إرسال,发送,wysłać,Sent,Send,one,danna,ewnna,ewpm,ewn,එවන්න,ඔනෙ,ඔන,දාන්න,දම්,එවපං,දහම්,එවපන්,දපන්,දාපන්,දාපම්,ඔනා,ඔනේ,එවහන්,One,දෙන්නකො,ewan,dapanko,dapan"
     },
     "EMOJIS": {
-      "description": "Emojis used for reactions (comma-separated).",
+      "description": "Comma-separated list of emojis",
       "value": "🌼,😂,🔥,🤍,🥰,😎,🪻,🎉,👑,🛒,🚀,💎,🌟,🧘‍♀️,🌈"
     }
   },
@@ -115,9 +107,15 @@
       "url": "heroku/nodejs"
     }
   ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
   "addons": [
     {
-      "plan": "mongodb-atlas:starter" // Add MongoDB Atlas as an add-on (optional)
+      "plan": "heroku-postgresql"
     }
   ]
 }
