@@ -1,52 +1,52 @@
 {
   "name": "DemonSlayer WhatsApp Bot",
-  "description": "A WhatsApp bot with VIP features.",
+  "description": "A WhatsApp bot with VIP features and automation.",
   "repository": "https://github.com/Fenixid-server/FENIX-A7",
   "logo": "https://bit.ly/4kfeKbA",
   "keywords": ["whatsapp", "bot", "automation", "vip"],
   "env": {
     "AUTO_LIKE_STATUS": {
-      "description": "Enable auto-like for status",
+      "description": "Enable auto-like for status updates",
       "value": "true"
     },
     "DOWNLOAD_MEDIA_STATUS": {
-      "description": "Enable download media",
+      "description": "Enable media downloads",
       "value": "true"
     },
     "SENSOR_NUMBER": {
-      "description": "Enable sensor number",
+      "description": "Enable number sensor for status detection",
       "value": "true"
     },
     "SEND_WELCOME_MESSAGE": {
-      "description": "Send welcome messages",
+      "description": "Send automatic welcome messages",
       "value": "true"
     },
     "FENIX_ABOUT_TYPE": {
-      "description": "Set about type",
+      "description": "Bot about type/category",
       "value": "Programming"
     },
     "OWNER_NUMBER": {
-      "description": "Owner's phone number",
+      "description": "Owner's WhatsApp number",
       "value": "94773010580"
     },
     "USER_TIMEZONE": {
-      "description": "User timezone",
+      "description": "User's timezone setting",
       "value": "Asia/Colombo"
     },
     "FENIX_NAME": {
-      "description": "Name of the unknown save number ",
+      "description": "Default name for unknown saved numbers",
       "value": "Unknown Friend"
     },
     "FENIX_WEL_1": {
-      "description": "contact push message 1",
+      "description": "First contact push message",
       "value": "Your Number Has Been Auto Saved🫠"
     },
     "FENIX_WEL_2": {
-      "description": "contact push message 2",
+      "description": "Second contact push message",
       "value": "Save And Alert Me If Save 🌹"
     },
     "FENIX_WEL_3": {
-      "description": "contact push message 3",
+      "description": "Third contact push message",
       "value": "Save and Alert me✅"
     },
     "AUTO_DETECT_1": {
@@ -58,32 +58,48 @@
       "value": "ඔයගෙ නම්බරෙ ගත්තෙ ස්ටෙටස් එකකින් 🫠"
     },
     "BOT_NAME": {
-      "description": "Name of the bot",
-      "value": "FENX ID OWNER"
+      "description": "Bot's display name",
+      "value": "FENIX ID OWNER"
     },
     "BOT_AGE": {
-      "description": "Age of the bot",
+      "description": "Age of the bot (for fun)",
       "value": "26"
     },
     "BOT_LOCATION": {
-      "description": "Location of the bot",
-      "value": "SRILANKA"
+      "description": "Bot's registered location",
+      "value": "Sri Lanka"
     },
     "BOT_EMAIL": {
-      "description": "Email associated with the bot",
+      "description": "Bot's contact email",
       "value": "privateloginemails@gmail.com"
     },
     "RELAX_WISHES": {
-      "description": "Relaxation message",
+      "description": "Relaxation message for users",
       "value": "Take a deep breath... 🌿"
     },
     "SEND_TRANSLATIONS": {
-      "description": "Comma-separated list of translations for sending messages",
+      "description": "Comma-separated translations for sending messages",
       "value": "send,envoyer,enviar,invia,senden,ส่ง,gửi,отправить,إرسال,发送,wysłać,Sent,Send,one,danna,ewnna,ewpm,ewn,එවන්න,ඔනෙ,ඔන,දාන්න,දම්,එවපං,දහම්,එවපන්,දපන්,දාපන්,දාපම්,ඔනා,ඔනේ,එවහන්,One,දෙන්නකො,ewan,dapanko,dapan"
     },
     "EMOJIS": {
-      "description": "Comma-separated list of emojis",
+      "description": "Comma-separated list of emojis used in messages",
       "value": "🌼,😂,🔥,🤍,🥰,😎,🪻,🎉,👑,🛒,🚀,💎,🌟,🧘‍♀️,🌈"
+    },
+    "MONGO_URI": {
+      "description": "MongoDB connection string (replace with your URI)",
+      "value": "mongodb+srv://Own:Own@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    },
+    "DB_NAME": {
+      "description": "MongoDB database name",
+      "value": "Own"
+    },
+    "COLLECTIONS_CONTACTS": {
+      "description": "MongoDB collection for storing contacts",
+      "value": "contacts"
+    },
+    "COLLECTIONS_GOOGLE_AUTH": {
+      "description": "MongoDB collection for Google authentication data",
+      "value": "google_auth"
     }
   },
   "buildpacks": [
