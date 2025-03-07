@@ -6,19 +6,19 @@
   "keywords": ["whatsapp", "bot", "automation", "vip"],
   "env": {
     "MONGO_URI": {
-      "description": "MongoDB connection string.",
+      "description": "MongoDB connection string. ❌ allowed any ip address if you don't know don't change",
       "value": "mongodb+srv://Own:Own@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "DB_NAME": {
-      "description": "MongoDB database name.",
+      "description": "MongoDB database name. ❌ allowed any ip address don'c change if you not",
       "value": "Own"
     },
     "COLLECTION_CONTACTS": {
-      "description": "MongoDB collection for contacts.",
-      "value": "contacts"
+      "description": "කැමති අංක 4ක් ගහපං/ any 4 numbers",
+      "value": "1234"
     },
     "COLLECTION_GOOGLE_AUTH": {
-      "description": "MongoDB collection for Google auth.",
+      "description": "වෙනස් කරන්න එප /Don't change",
       "value": "google_auth"
     },
     "AUTO_LIKE_STATUS": {
