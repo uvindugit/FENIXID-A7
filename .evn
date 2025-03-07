@@ -22,6 +22,8 @@ FENIX_WEL_3=Save and Alert me✅
 # Status Auto-Detect Messages
 AUTO_DETECT_1=heyyy 😸
 AUTO_DETECT_2=ඔයගෙ නම්බරෙ ගත්තෙ ස්ටෙටස් එකකින් 🫠
+PRIVATE_AUTO_DETECT_1=heyyy 😸
+PRIVATE_AUTO_DETECT_2=ඔයගෙ නම්බරෙ ගත්තෙ කෙනෙක් ශෙයා කරනකොට 😫
 
 # Bot Profile Details
 BOT_NAME=FENX ID OWNER
@@ -32,29 +34,16 @@ BOT_EMAIL=privateloginemails@gmail.com
 # Relax Wishes
 RELAX_WISHES=Take a deep breath... 🌿
 
+# MongoDB Settings
+MONGO_URI=mongodb+srv://Own:Own@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+DB_NAME=Own
+
+# Collections
+COLLECTION_CONTACTS=contacts
+COLLECTION_GOOGLE_AUTH=google_auth
+
 # Send Translations (comma-separated phrases)
 SEND_TRANSLATIONS=send,envoyer,enviar,invia,senden,ส่ง,gửi,отправить,إرسال,发送,wysłać,Sent,Send,one,danna,ewnna,ewpm,ewn,එවන්න,ඔනෙ,ඔන,දාන්න,දම්,එවපං,දහම්,එවපන්,දපන්,දාපන්,දාපම්,ඔනා,ඔනේ,එවහන්,One,දෙන්නකො,ewan,dapanko,dapan
 
 # Emojis (comma-separated)
 EMOJIS=🌼,😂,🔥,🤍,🥰,😎,🪻,🎉,👑,🛒,🚀,💎,🌟,🧘‍♀️,🌈
-
-# MongoDB Connection
-MONGO_URL=mongodb+srv://username:password@cluster0.mongodb.net/dbname?retryWrites=true&w=majority
-DB_NAME=your_database_name
-
-# Gmail Credentials for Nodemailer
-GMAIL_USER=privateloginemails@gmail.com
-GMAIL_PASS=ztwt gfzy qsma xbgn
-
-# Google OAuth Credentials
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-GOOGLE_REDIRECT_URI=your_google_redirect_uri
-
-# WhatsApp API Settings (if applicable)
-WHATSAPP_API_KEY=your_whatsapp_api_key
-WHATSAPP_API_SECRET=your_whatsapp_api_secret
-
-# Other Settings
-LOG_LEVEL=info
-DEBUG_MODE=false
