@@ -1,7 +1,7 @@
 {
   "name": "Fenix WhatsApp Bot",
   "description": "A WhatsApp bot built with Node.js and Baileys library.",
-  "repository": "https://github.com/your-username/your-repo-name", // Replace with your GitHub repo URL
+  "repository": "https://github.com/Fenixid-server/FENIXID-A7?tab=readme-ov-file", // Replace with your GitHub repo URL
   "logo": "https://i.ibb.co/0V26BH0F/2205.jpg", // Replace with your bot's logo URL
   "keywords": ["whatsapp", "bot", "nodejs", "baileys"],
   "env": {
